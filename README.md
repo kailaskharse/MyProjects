@@ -1,8 +1,9 @@
-# hello-world
-hello world 
+GIT Commands:
 
-the branch created after creating a master baranch and submetting the issue in master 
-branch.
-
-now commiting the changes made in hello-world txt which is also present in hello-world and will commit in 
-branch readme-edit. and also writng the commit message for understanding what changes are made in new branch.
+git config --global user.name "kailaskharse"
+git config --global user.name "kharse.kailas@gmail.com"
+git init
+git add .
+git commit -m "Message"
+git remote add origin https://github.com/kailaskharse/Myprojects.git
+git push -u origin master
