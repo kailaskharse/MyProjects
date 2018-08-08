@@ -1,0 +1,11 @@
+/*NOTE: Reference variable behave similar to both value variable and pointer variable.
+
+SYNTEX: DataType &Referencevariable = valuevariable;
+	e.g: char &ch1=ch;	//ch1 is an alias of char ch
+
+Note: Constant cannot be made to be pointer to by a reference variable
+	e.g: int &num=100; 	// gives compiler error.
+
+Reference vaiarble ar not bounded to a new memory location, but to the variable to which they are aliases.
+
+*/
